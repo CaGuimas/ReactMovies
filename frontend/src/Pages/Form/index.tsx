@@ -35,11 +35,13 @@ function Form() {
               <option>5</option>
             </select>
           </div>
-          <div className="reactmovie-form-btn-container">
-            <button type="submit" className="btn btn-primary reactmovie-btn">
-              Salvar
-            </button>
-          </div>
+          <Link to="/">
+            <div className="reactmovie-form-btn-container">
+              <button type="submit" className="btn btn-primary reactmovie-btn">
+                Salvar
+              </button>
+            </div>
+          </Link>
         </form>
         <Link to="/">
           <button className="btn btn-primary reactmovie-btn mt-3">

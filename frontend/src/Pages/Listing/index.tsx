@@ -1,3 +1,5 @@
+
+import Cardtwo from "componets/Cardtwo";
 import MovieCards from "componets/MovieCards";
 import Pagination from "componets/Pagination";
 
@@ -12,7 +14,7 @@ function Listing() {
             <MovieCards />
           </div>
           <div className="col-sm-6 col-lg-4 col-xl-3 col-mb-3">
-            <MovieCards />
+            <Cardtwo />
           </div>
           <div className="col-sm-6 col-lg-4 col-xl-3 col-mb-3">
             <MovieCards />
